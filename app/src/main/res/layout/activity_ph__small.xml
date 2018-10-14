@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ph_Small">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আপনার মাটির বর্তমান অবস্থা"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="48dp"
+            android:layout_height="4dp"
+            android:background="#FE4630"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="48dp"
+            />
+        <TextView
+            android:background="@drawable/new_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অ্যাসিডিয়"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="এ অবস্থার যেকোন মাটি গাছের জন্য ক্ষতিকর"
+            android:gravity="start"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ph এর মান বৃদ্ধির উপায় : "
+                android:gravity="start"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:text="মাটির পি এইচ মান প্রতিনিয়ত পরিবর্তন হয়। কোন এক ফসল একবার রোপন করলে এবং পরে আবার একই বা অন্য ফসল উৎপাদন করলে মাটির পি এইচ মান পরিবর্তন হয়। মাটিতে পি এইচ মান কমে গেলে তা বাড়ানোর জন্য চুন জাতীয় পদার্থ (ক্যালসিয়াম কার্বোনেট, ক্যালসিয়াম হাইড্রক্সাইড, ঝিনুকের গুড়া, কাঠের ছাই প্রভৃতি) ব্যবহার করতে হবে।"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

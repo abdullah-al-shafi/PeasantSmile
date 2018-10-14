@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mositure">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিভিন্ন উদ্ভিদের এর জন্য মাটির আদ্রতা এর পরিমাণ"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginRight="48dp"
+                android:layout_height="4dp"
+                android:background="#FE4630"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="48dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="➤ "
+                    android:gravity="start"
+                    android:textColor="#a60303"
+                     />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সকল শাকসবজির জন্য 41% - 80% এর মধ্যে মাটির আর্দ্রতা থাকা প্রয়োজন।"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="➤ "
+                    android:gravity="start"
+                    android:textColor="#a60303"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="সকল ফলগাছ এর জন্য 21% - 60% এর মধ্যে মাটির আর্দ্রতা থাকা প্রয়োজন।"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="➤ "
+                    android:gravity="start"
+                    android:textColor="#a60303"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:text="পাহাড়ি ফুলগাছ এর জন্য  0% - 40% এবং কিছু ফুল গাছ এর জন্য  21% - 40% এবং বাকি সব ফুল গাছ এর জন্য 21% - 60% মাটির আর্দ্রতা থাকা প্রয়োজন।"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="উদ্ভিদের বৃদ্ধি ও ভাল ফসল এর জন্য মাটির আদ্রতা এর পরিমাপ ঠিক রাখা অত্যন্ত জরুরি।"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/soil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:onClick="ph_check"
+
+            android:id="@+id/ph_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round_button"
+            android:padding="15dp"
+            android:text="Ph \n পরিমাপ"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:onClick="moisture"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/moisture_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round_button"
+            android:padding="15dp"
+            android:text="আর্দ্রতা পরিমাপ"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:onClick="ph_knoladge"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round_button"
+            android:padding="15dp"
+            android:text="Ph সম্পর্কে\nবিস্তারিত\nজ্ঞান"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

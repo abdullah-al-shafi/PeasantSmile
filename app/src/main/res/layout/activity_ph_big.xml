@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ph_big">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আপনার মাটির বর্তমান অবস্থা"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginRight="48dp"
+            android:layout_height="4dp"
+            android:background="#FE4630"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="48dp"
+            />
+        <TextView
+            android:background="@drawable/new_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ক্ষারীয়"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="এ অবস্থার যেকোন মাটি গাছের জন্য ক্ষতিকর"
+            android:gravity="start"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ph এর মান কমানোর উপায় : "
+                android:gravity="start"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:text="মাটিতে পি এইচ মান বেড়ে গেলে তা কমানোর জন্য সালফার জাতীয় সার (অ্যামোনিয়াম হাইড্রক্সাইড) ব্যবহার করা হয়। আর মাটির পি এইচ মান ধরে রাখার জন্য মাটিতে নিয়মিত অরগানিক মেটার (গোবর, কমপোস্ট) প্রয়োগ করতে হবে।"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ph"
+    android:orientation="vertical"
+    android:background="@drawable/soil">
+
+    <EditText
+        android:id="@+id/ph_measu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/write_text"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:hint="Ph এর মান"
+        android:inputType="numberDecimal"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="পরীক্ষা করে দেখুন"
+        android:drawableLeft="@drawable/ic_near_me_white_24dp"
+        android:background="@drawable/new_list"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:onClick="ph_Test"
+        />
+
+</LinearLayout>

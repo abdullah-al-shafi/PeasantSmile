@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ph50_55">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আপনার মাটির বর্তমান অবস্থা"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginRight="48dp"
+                android:layout_height="4dp"
+                android:background="#FE4630"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="48dp"
+                />
+            <TextView
+                android:background="@drawable/new_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="হালকা অ্যাসিড"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এ অবস্থায় আপনি নিম্নোক্ত গাছের চারা রোপণ করতে পারেন"
+                android:gravity="start"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:background="@drawable/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:background="@drawable/back"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:background="@drawable/table_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="খাদ্যশস্য"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/khaddo50_55"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/back"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:background="@drawable/table_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ফলমূল"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/folmul50_55"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@drawable/back"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:background="@drawable/table_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ফুল"
+                        android:gravity="center_horizontal"
+                        android:textColor="#000"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ful50_55"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

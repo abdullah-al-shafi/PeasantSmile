@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="stbcolor">#4C4333</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+
+    </integer-array>
+
+    <color name="colorMain">#006776</color>
+    <color name="textColorOrange">#ffa82c</color>
+
+    <color name="textColorWhite">#fff</color>
+    <color name="textColorBlack">#000000</color>
+</resources>

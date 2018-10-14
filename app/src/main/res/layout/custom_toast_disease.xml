@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout_id_disease"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp" >
+
+    <ImageView
+        android:background="#D50000"
+        android:id="@+id/image"
+        android:src="@drawable/warning"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:padding="5dp"
+        android:background="#D50000"
+        android:id="@+id/text_disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অবশ্য়য় Ph এর মান বসাতে হবে...!"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+</LinearLayout>

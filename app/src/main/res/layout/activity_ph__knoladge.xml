@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ph_Knoladge">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ph সম্পর্কে বিস্তারিত আলোচনা "
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginRight="48dp"
+                android:layout_height="4dp"
+                android:background="#FE4630"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="48dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph : "
+                    android:gravity="start"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:text="পি এইচ হলো মাটির অম্লত্ব বা ক্ষারত্বের পরিমান। মাটির পি এইচ মান ৭ হলো স্বাভাবিক। পি এইচ মান ৭ এর বেশী হলে ক্ষার মাটি অর্থাৎ মাটিতে লবনের পরিমান বেশী। আর পি এইচ মান ৭ এর কম হলে সে মাটি অল্প অর্থাৎ মাটিতে এসিডের পরিমান বেশী।"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph এর মান বৃদ্ধির উপায় : "
+                    android:gravity="start"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:text="মাটির পি এইচ মান প্রতিনিয়ত পরিবর্তন হয়। কোন এক ফসল একবার রোপন করলে এবং পরে আবার একই বা অন্য ফসল উৎপাদন করলে মাটির পি এইচ মান পরিবর্তন হয়। মাটিতে পি এইচ মান কমে গেলে তা বাড়ানোর জন্য চুন জাতীয় পদার্থ (ক্যালসিয়াম কার্বোনেট, ক্যালসিয়াম হাইড্রক্সাইড, ঝিনুকের গুড়া, কাঠের ছাই প্রভৃতি) ব্যবহার করতে হবে।"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph এর মান কমানোর উপায় : "
+                    android:gravity="start"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:text="মাটিতে পি এইচ মান বেড়ে গেলে তা কমানোর জন্য সালফার জাতীয় সার (অ্যামোনিয়াম হাইড্রক্সাইড) ব্যবহার করা হয়। আর মাটির পি এইচ মান ধরে রাখার জন্য মাটিতে নিয়মিত অরগানিক মেটার (গোবর, কমপোস্ট) প্রয়োগ করতে হবে।"
+                    />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
